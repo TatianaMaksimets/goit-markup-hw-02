@@ -1,0 +1,232 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Oleo Script', cursive;
+  --taxt-color: #212121;
+  --secondary-text-color: #ffffff;
+  --description-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #2f303a;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--taxt-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+/* ================= COMPONENTS ================= */
+.logo-web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.3em;
+  color: var(--accent-color);
+}
+
+.logo-theme-light {
+  font-family: var(--secondary-font);
+  font-style: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.3em;
+  color: var(--taxt-color);
+}
+
+.logo-theme-dark {
+  font-family: var(--secondary-font);
+  font-style: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.3em;
+  color: var(--secondary-text-color);
+}
+
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.6em;
+  background-color: var(--accent-color);
+  color: var(--secondary-text-color);
+  cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #188ce8;
+  color: var(--secondary-text-color);
+}
+
+/* ================= Заголовки секций(не Hero)  ================= */
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.3em;
+}
+/* ================= /Заголовки секций(не Hero) ================= */
+
+.services-button {
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.3em;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+
+.services-button:hover,
+.services-button:focus {
+  background-color: #2196f3;
+  color: var(--secondary-text-color);
+}
+/* ================= /COMPONENTS ================= */
+
+/* ================= Header ================= */
+
+.menu-link {
+  font-style: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.2em;
+  color: var(--taxt-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-number,
+.contact-mailto {
+  font-style: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.2em;
+  color: var(--description-text-color);
+}
+
+.contact-mailto:hover,
+.contact-mailto:focus {
+  color: var(--accent-color);
+}
+
+.contact-number:hover,
+.contact-number:focus {
+  color: var(--accent-color);
+}
+/* ================= /Header ================= */
+
+/* ================= Hero ================= */
+
+.hero {
+  background-color: var(--background-color);
+}
+
+.main-title {
+  font-style: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+/* ================= /Hero ================= */
+
+/* ================= Advantages ================= */
+
+.advantages-title {
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.3em;
+  color: var(--description-text-color);
+}
+/* ================= /Advantages ================= */
+
+/* ================= We do ================= */
+
+/* ================= /We do ================= */
+
+/* ================= Our team ================= */
+
+.our-team-name {
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.3em;
+}
+
+.our-team-position {
+  font-style: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.3em;
+  color: var(--description-text-color);
+}
+
+/* ================= /Our team ================= */
+
+/* ================= Services list ================= */
+/* ================= /Services list ================= */
+
+/* ================= Service gallery ================= */
+.gallery-title {
+  font-style: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.6em;
+}
+
+.gallery-description {
+  font-style: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.3em;
+  color: var(--description-text-color);
+}
+/* ================= /Service gallery ================= */
+
+/* ================= Footer ================= */
+
+.address {
+  background-color: var(--background-color);
+}
+
+.address-link {
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.3em;
+  color: var(--secondary-text-color);
+}
+
+.address-link-mailto,
+.address-link-tel {
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.3em;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ================= /Footer ================= */
