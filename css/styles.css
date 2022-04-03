@@ -31,25 +31,25 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
 .logo-theme-light {
   font-family: var(--secondary-font);
-  font-style: 400;
+  font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--taxt-color);
 }
 
 .logo-theme-dark {
   font-family: var(--secondary-font);
-  font-style: 400;
+  font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -57,7 +57,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--secondary-text-color);
   cursor: pointer;
@@ -74,15 +74,15 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
 }
 /* ================= /Заголовки секций(не Hero) ================= */
 
 .services-button {
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   cursor: pointer;
 }
@@ -97,10 +97,10 @@ body {
 /* ================= Header ================= */
 
 .menu-link {
-  font-style: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: var(--taxt-color);
 }
 
@@ -111,10 +111,10 @@ body {
 
 .contact-number,
 .contact-mailto {
-  font-style: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: var(--description-text-color);
 }
 
@@ -136,10 +136,10 @@ body {
 }
 
 .main-title {
-  font-style: 900;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
 }
@@ -148,17 +148,17 @@ body {
 /* ================= Advantages ================= */
 
 .advantages-title {
-  font-style: 700;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .advantages-description {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
 /* ================= /Advantages ================= */
@@ -170,16 +170,16 @@ body {
 /* ================= Our team ================= */
 
 .our-team-name {
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
 }
 
 .our-team-position {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
 
@@ -190,16 +190,16 @@ body {
 
 /* ================= Service gallery ================= */
 .gallery-title {
-  font-style: 700;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.06em;
 }
 
 .gallery-description {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
 /* ================= /Service gallery ================= */
@@ -211,19 +211,19 @@ body {
 }
 
 .address-link {
-  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
 .address-link-mailto,
 .address-link-tel {
-  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /* ================= /Footer ================= */
